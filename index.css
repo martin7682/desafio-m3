@@ -8,11 +8,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 17px 0px;
+    padding: 17px 17px 0 17px;
+    background-image: url(./images/puntitos.png);
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .header{
-        padding: 30px 30px 0px;
+        padding: 36px 103px 0 80px;
     }
 }
 
@@ -20,7 +21,7 @@ body{
     width: 54px;
     height: 50px;
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .logo{
         width: 95px;
     height: 109px;
@@ -32,7 +33,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .menu-imp{
         display: none;
     }
@@ -46,7 +47,7 @@ body{
 .nav-header{
     display: none;
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .nav-header{
         width: 428px;
         display: flex;
@@ -72,10 +73,13 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-image: url(./images/puntitos.png);
+    padding-top: 101px;
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .section-one{
         flex-direction: row;
+        padding-top: 115px;
     }
 }
 .titulo-1{
@@ -84,22 +88,32 @@ body{
     text-align: center;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
+    padding: 0 0 58px 0;
+    width: 291px;
+   
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .titulo-1{
         align-self: flex-start;
         text-align: left;
+        padding: 0 0 0 80px;
+        width: 313px;
+        
     }
 }
 
 .img-perfil{
     width: 318px;
     height: 300px;
+    border-radius: 50px 50px 0 0;
 }
-@media(min-width:545px){
+@media(min-width:920px){
     .img-perfil{
         width: 435px;
         height: 395px;
+        border-radius: 80px 0 0 0;
+        margin-right: 84px;
     }   
 }
 
@@ -108,24 +122,27 @@ body{
 
 
 
+
+
 .section-two{
-    height: 538px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
+    padding: 55px 0 68px 0;
 }
 
-@media(min-width:515px){
+@media(min-width:920px){
     .section-two{
         display: grid;
         grid-template: "section-two-left section-two-right";
         grid-template-columns: 50%;
-        column-gap: 30px;
+        column-gap: 90px;
+        padding: 140px 0 170px 0;
     }
 }
-@media(min-width:515px){
+@media(min-width:920px){
     .div-section-two{
         grid-area: section-two-right;
         justify-self: left;
@@ -140,8 +157,9 @@ body{
     font-size: 32px;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
 }
-@media(min-width:515px){
+@media(min-width:920px){
     .titulo-section-two{
         text-align: left;
     }
@@ -152,16 +170,19 @@ body{
     color: white;
     font-weight: 400;
     font-style: normal;
+    padding: 41px 32px 57px 32px;
+    margin: 0;
 }
-@media(min-width:515px){
+@media(min-width:920px){
     .parrafo-section-two{
         font-size: 24px;
+        padding: 28px 300px 0 0;
     }
 }
 .div-tilde-section-two{
     text-align: center;
 }
-@media(min-width:515px){
+@media(min-width:920px){
     .div-tilde-section-two{
         grid-area: section-two-left;
         justify-self: right;
@@ -173,12 +194,15 @@ body{
     width:80px;
     height:80px;
 }
-@media(min-width:515px){
+@media(min-width:920px){
     .tilde{
         width:211px;
         height:211px;
     }
 }
+
+
+
 
 
 
@@ -191,29 +215,35 @@ body{
     justify-content: space-between;
 }
 
-@media(min-width:700px){
-    .section-three{
-        height: 604px;
-    }
-}
 .titulo-section-three{
     font-family: "Open Sans";
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
     height: auto;
+    padding: 70px 0 0 0;
+    margin: 0;
 }
 
-@media(min-width:700px){
+@media(min-width:920px){
     .titulo-section-three{
         font-size: 48px;
+        padding-top: 60px;
     }
 }
 
-@media(min-width:700px){
+.div-section-three{
+    padding: 60px 0 60px 0;
+    align-self: center;
+}
+@media(min-width:920px){
     .div-section-three{
         display: flex;
         flex-direction: row;
+        padding-bottom: 100px;
+        padding-top: 75px;
+        justify-content: space-between;
+        align-self: normal;
     }
 }
 .servicios-section-three{
@@ -222,6 +252,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    max-width: 500px;
+}
+@media(min-width:920px){
+    .servicios-section-three{
+        padding: 20px 80px;
+    }
 }
 .icon{
     width: 138px;
@@ -246,6 +282,8 @@ body{
 
 
 
+
+
 .section-four{
     height: 660px;
     display: flex;
@@ -253,17 +291,19 @@ body{
     justify-content: space-evenly;
     align-items: center;
     background-color: black;
+    align-content: center;
 }
-@media(min-width:655px){
+@media(min-width:920px){
     .section-four{
         display: grid;
         grid-template: "section-four-left section-four-right";
         grid-template-columns: 1fr 1fr;
         column-gap: 30px;
+        padding: 100px;
     }
 }
 
-@media(min-width:655px){
+@media(min-width:920px){
     .div-title-section-four{
         grid-area: section-four-left;
         align-self: center;
@@ -280,8 +320,10 @@ body{
     font-style: normal;
     font-size: 32px;
 }
-@media(min-width:655px){
+@media(min-width:920px){
     .titulo-section-four{
+        justify-self: end;
+        align-self: start;
         font-size: 48px;
     }
 }
@@ -292,14 +334,41 @@ body{
     width: 335px;
     color: white;
 }
-@media(min-width:655px){
+@media(min-width:920px){
     .div-form-section-four{
         grid-area: section-four-right;
-        align-self: center;
+        align-self: start;
         justify-self: start;
         border: solid;
     }
 }
+
+.input-label{
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+}
+.input-name{
+    height: 45px;
+    margin: 0 0 51px 0;
+}
+.input-email{
+    height: 45px;
+    margin: 0 0 45px 0;
+}
+.input-textarea{
+    height: 113px;
+    margin: 0 0 60px 0;
+}
+
+.input-submit{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 700;
+    height: 45px;
+}
+
+
 
 
 
@@ -312,17 +381,25 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+    background-color: #DBDBDB;
 }
-@media(min-width:390px){
+@media(min-width:920px){
     .footer{
         height: 168,13px;
         display: grid;
         grid-template: "footer-left footer-right";
         grid-template-columns: 50%;
-        
+        background-image: url(./images/puntitos-desktop-footer.png);
     }
 }
-
+.div-logo-footer{
+    padding-left: 16px;
+}
+@media(min-width:920px){
+    .div-logo-footer{
+        padding: 0;
+    }
+}
 .logo-footer{
     width: 77px;
     height: 71px;
@@ -344,7 +421,7 @@ body{
     font-size: 13px;
     margin: 18px 0px;
 }
-@media(min-width:390px){
+@media(min-width:920px){
     .div-logo-footer{
         grid-area: footer-left;
         align-self: center;
@@ -360,10 +437,14 @@ body{
     margin: 12.5px 8px;
 }
 
-@media(min-width:390px){
+.div-footer{
+    padding-left: 16px;
+}
+@media(min-width:920px){
     .div-footer{
         grid-area: footer-right;
         align-self: center;
         justify-self: end;
+        padding: 0;
     }
 }
